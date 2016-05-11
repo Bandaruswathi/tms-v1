@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="tms_innosoft" Class="TMSdbmlDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-7D7P2K0;Initial Catalog=tms_innosoft;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="tms_innosoftConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.mstClient" Member="mstClients">
+    <Type Name="mstClient">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="CompanyAddress" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactNumber" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="DateAccepted" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsLocked" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.trnTaskSub" Member="trnTaskSubs">
+    <Type Name="trnTaskSub">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TaskId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Action" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="DateCalled" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TimeCalled" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FinishedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FinishedTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="trnTask_trnTaskSub" Member="trnTask" ThisKey="TaskId" OtherKey="Id" Type="trnTask" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mstProduct" Member="mstProducts">
+    <Type Name="mstProduct">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductCode" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ProductDescription" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="IsLocked" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mstStaff" Member="mstStaffs">
+    <Type Name="mstStaff">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StaffName" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactNumber" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="IsLocked" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mstUser" Member="mstUsers">
+    <Type Name="mstUser">
+      <Column Name="StaffId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Designation" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsLocked" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="mstUser_mstUserForm" Member="mstUserForms" ThisKey="StaffId,Username" OtherKey="StaffId,Username" Type="mstUserForm" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mstUserForms" Member="mstUserForms">
+    <Type Name="mstUserForm">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StaffId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="FormId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CanAdd" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanSave" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEdit" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanDelete" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanView" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanPreview" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanPrint" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="mstUser_mstUserForm" Member="mstUser" ThisKey="StaffId,Username" OtherKey="StaffId,Username" Type="mstUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.sysForm" Member="sysForms">
+    <Type Name="sysForm">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Form" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="FormDescription" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.trnTask" Member="trnTasks">
+    <Type Name="trnTask">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TaskNo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TaskDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ClientId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Caller" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Concern" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="AnsweredBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StaffId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ProblemType" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Severity" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Solution" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="DoneDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DoneTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VerifiedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsLocked" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="trnTask_trnTaskSub" Member="trnTaskSubs" ThisKey="Id" OtherKey="TaskId" Type="trnTaskSub" />
+    </Type>
+  </Table>
+</Database>

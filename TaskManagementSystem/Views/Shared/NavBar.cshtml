@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "NavBar";
+}
+
+
+        <nav class="navbar st-navbar homedash navbar-default navbar-fixed-top clearfix" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../Software/Dashboard"><img src="../photos/innosofticonwhite.png" alt="" class="img-responsive"></a>
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Setup <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../Software/Product">Product</a></li>
+                                <li><a href="../HomeDashboard/Client">Client</a></li>
+                                <li><a href="../Software/Staff">Staff</a></li>
+                                <li><a href="../HomeDashboard/User">User</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Activities <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../HomeDashboard/Task">Task</a></li>
+                                <li><a href="../HomeDashboard/Calendar">Calendar</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reports <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../HomeDashboard/Calls">Calls</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> User <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../Account/ResetPassword"><span class="glyphicon glyphicon-cog"></span> Reset Password</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+
+@Scripts.Render("~/bundles/bootstrap")

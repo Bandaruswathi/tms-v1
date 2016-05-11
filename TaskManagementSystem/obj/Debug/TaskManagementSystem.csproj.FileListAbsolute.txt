@@ -1,0 +1,264 @@
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\gleea\Documents\Visual Studio 2015\Projects\Innosoft\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\nard\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\gleea\Desktop\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb

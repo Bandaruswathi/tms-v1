@@ -1,0 +1,53 @@
+﻿.nav navbar-nav {
+    color:#f6f6f6;
+}
+
+.glyphicon.glyphicon-shopping-cart {
+    font-size: 70px;
+}
+
+.wew {
+    color:#8b2020;
+}
+
+.panel-blue {
+    border-color: #275da8;
+    background-color: #275da8;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 5px 5px 4px #888888;
+    transition: all 0.5s ease;
+}
+
+.panel-blue-footer {
+    color: #275da8;
+}
+
+.panel-green {
+    border-color: #3b8d32;
+    background-color: #3b8d32;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 5px 5px 4px #888888;
+    transition: all 0.5s ease;
+}
+
+.panel-green-footer {
+    color: #3b8d32;
+}
+
+.panel-red {
+    border-color: #a12525;
+    background-color: #a12525;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 5px 5px 4px #888888;
+    transition: all 0.5s ease;
+}
+
+.panel-red-footer {
+    color: #a12525;
+}

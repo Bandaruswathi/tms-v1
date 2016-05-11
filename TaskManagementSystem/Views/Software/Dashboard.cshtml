@@ -1,0 +1,177 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="../Content/nav-bar.css">
+    <link rel="stylesheet" href="../font-awesome-4.6.1/css/font-awesome.min.css">
+    @Styles.Render("~/Content/styleD.css")
+</head>
+
+<body>
+    @Html.Partial("NavBarD")
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" style="margin: 0 auto;">
+                <h3>Setup</h3>
+            </div>
+
+            <!--Product-->
+
+            <div class="col-sm-3" style="margin: 0 auto;">
+                <a href="@Url.Action("Product","Software")">
+                    <div class="panel panel-blue">
+
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <div><h3 class="h3-navbar"> Product</h3></div>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-footer panel-blue-footer">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+
+
+            <!--Client-->
+            
+                <div class="col-sm-3" style="margin: 0 auto;">
+                    <a href="#">
+                        <div class="panel panel-blue">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div><h3> Client</h3></div>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <i class="fa fa-building fa-5x" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer panel-blue-footer">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </div>
+                        </div>
+                    </a>
+
+        </div><!--Staff-->
+        <div class="col-sm-3" style="margin: 0 auto;">
+            <a href="/Software/Staff">
+                <div class="panel panel-blue">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <div><h3> Staff</h3></div>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <i class="fa fa-users lg fa-5x" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer panel-blue-footer">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </div>
+                </div>
+            </a>
+</div>
+
+        <!--User-->
+        <div class="col-sm-3" style="margin: 0 auto;">
+            <a href="#">
+                <div class="panel panel-blue">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <div><h3> User</h3></div>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <i class="fa fa-user lg fa-5x" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer panel-blue-footer">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </div>
+                </div>
+            </a>
+</div>
+
+
+    </div>
+    <div class="row">
+            <div class="col-sm-12" style="margin: 0 auto;">
+                <h3>Activities</h3>
+            </div>
+
+               
+        <!--Task-->
+       <div class="col-sm-3" style="margin: 0 auto;">
+           <a href="#">
+               <div class="panel panel-green">
+                   <div class="panel-heading">
+                       <div class="row">
+                           <div class="col-xs-3">
+                               <div><h3>Task</h3></div>
+                           </div>
+                           <div class="col-xs-9 text-right">
+                               <i class="fa fa-tasks lg fa-5x" aria-hidden="true"></i>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="panel-footer panel-green-footer">
+                       <span class="glyphicon glyphicon-chevron-right"></span>
+                   </div>
+               </div>
+           </a>
+           </div>
+           
+
+            <div class="col-sm-9" style="margin: 0 auto;">
+            </div>
+        </div>
+    
+    <div class="row">
+          
+            <div class="col-sm-12" style="margin: 0 auto;">
+                <h3>Reports</h3>
+            </div>
+
+            <!--Calls-->
+            <div class="col-sm-3" style="margin: 0 auto;">
+                <a href="#">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <div><h3>Calls</h3></div>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <i class="fa fa-phone lg fa-5x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-footer panel-red-footer">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="col-sm-9" style="margin: 0 auto;">
+            </div>
+        </div>
+     </div>
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
