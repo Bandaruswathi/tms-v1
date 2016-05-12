@@ -88,6 +88,49 @@ namespace TaskManagementSystem.Controllers
         }
 
         // ==============
+        // UPDATE Item
+        // ==============
+        [Route("api/product/update/{id}")]
+        public HttpResponseMessage Put(String id, Models.MstProduct item)
+        {
+            try
+            {
+                var isLocked = true;
+                var identityUserId = User.Identity.GetUserId();
+                //var mstUserId = (from d in db.MstUsers where "" + d.Id == identityUserId select d.Id).SingleOrDefault();
+                var date = DateTime.Now;
+
+                var itemId = Convert.ToInt32(id);
+                var items = from d in db.mstProducts where d.Id == itemId select d;
+
+                if (items.Any())
+                {
+                    var updateItem = items.FirstOrDefault();
+
+                    updateItem.ProductCode = item.ProductCode;
+                    updateItem.ProductDescription = item.ProductDescription;
+                    updateItem.IsLocked = isLocked;
+
+                    //updateItem.UpdateUserId = 123;
+                    //updateItem.UpdateDateTime = date;
+                    //updateItem.IsLocked = isLocked;
+
+                    db.SubmitChanges();
+
+                    return Request.CreateResponse(HttpStatusCode.OK);
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound);
+                }
+            }
+            catch
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest);
+            }
+        }
+
+        // ==============
         // DELETE Item
         // ==============
         [Route("api/product/delete/{id}")]
