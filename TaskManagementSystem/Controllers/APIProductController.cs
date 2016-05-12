@@ -14,6 +14,29 @@ namespace TaskManagementSystem.Controllers
         private Data.TMSdbmlDataContext db = new Data.TMSdbmlDataContext();
 
         // ===========
+        // Get Item
+        // =========== 
+
+        [Route("api/product/search/{id}")]
+        public List<Models.MstProduct> GetItem(String id)
+        {
+            var isLocked = true;
+
+            var ID = Convert.ToInt32(id);
+            var item = from d in db.mstProducts
+                       where d.Id == ID
+                       select new Models.MstProduct
+                       {
+                           Id = d.Id,
+                           ProductCode = d.ProductCode,
+                           ProductDescription = d.ProductDescription,
+                           IsLocked = isLocked
+                       };
+
+            return item.ToList();
+        }
+
+        // ===========
         // LIST Item
         // =========== 
         [Route("api/product/list")]
@@ -31,6 +54,37 @@ namespace TaskManagementSystem.Controllers
                         };
 
             return product.ToList();
+        }
+
+        // ===========
+        // ADD Item
+        // ===========
+        [Route("api/product/add")]
+        public HttpResponseMessage Post(Models.MstProduct item)
+        {
+            try
+            {
+                var isLocked = true;
+                var identityUserId = User.Identity.GetUserId();
+                var date = DateTime.Now;
+
+                Data.mstProduct newItem = new Data.mstProduct();
+
+                newItem.ProductCode = item.ProductCode != null ? item.ProductCode : "00000";
+                newItem.ProductDescription = item.ProductDescription != null ? item.ProductDescription : "00000";
+                newItem.IsLocked = isLocked != null ? isLocked : false;
+
+                //ALLOW NULL
+
+                db.mstProducts.InsertOnSubmit(newItem);
+                db.SubmitChanges();
+
+                return Request.CreateResponse(HttpStatusCode.OK);
+            }
+            catch (Exception e)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest);
+            }
         }
 
         // ==============

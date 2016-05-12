@@ -10,7 +10,6 @@ namespace TaskManagementSystem.Controllers
 {
     public class APIStaffController : ApiController
     {
-
         private Data.TMSdbmlDataContext db = new Data.TMSdbmlDataContext();
 
         // ===========

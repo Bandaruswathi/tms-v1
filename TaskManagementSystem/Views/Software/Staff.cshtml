@@ -87,10 +87,9 @@
     <!-- Loading Modal -->
     <div class="modal fade" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="Loading..." aria-hidden="true" data-backdrop="static" data-keyboard="false">
         <div class="modal-dialog modal-sm">
-            Modal content
             <div class="modal-content">
                 <div class="modal-body">
-                    <h4 style="text-align:center">Loading ...</h4>
+                    <h4 style="text-align:center; color:#000000;">Loading...</h4>
                 </div>
                 <div class="modal-footer">
                     <img class="img-thumbnail img-responsive center-block img-custom" src='~/images/progress_bar.gif'>
@@ -374,6 +373,8 @@
                 });
             }
 
+            
+
             //============
             // On Page Load
             // ============
@@ -382,6 +383,25 @@
                 staffList = new wijmo.collections.CollectionView(getStaffMasterList());
                 staffList.canFilter = true;
                 staffList.pageSize = 15;
+
+                //Filter
+                var filterText = '';
+                $('#InputFilter').keydown(function () {
+                    filterText = this.value.toLowerCase();
+                    staffList.refresh();
+                });
+                staffList.filter = function (item) {
+                    return !filterText
+                    || (item.StaffName.toLowerCase().indexOf(filterText) > -1)
+                    || (item.ContactNumber.toLowerCase().indexOf(filterText) > -1)
+                }
+                staffList.collectionChanged.addHandler(function (sender, args) {
+                    updateNavigateButtonsCollection();
+
+                });
+                staffList.currentChanged.addHandler(function (sender, args) {
+                    updateNavigateButtonsCollection();
+                });
 
                 staffList.collectionChanged.addHandler(function (sender, args) {
                     updateNavigateButtonsCollection();
