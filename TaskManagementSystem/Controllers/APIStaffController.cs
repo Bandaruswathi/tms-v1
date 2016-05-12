@@ -67,7 +67,6 @@ namespace TaskManagementSystem.Controllers
             {
                 var isLocked = true;
                 var identityUserId = User.Identity.GetUserId();
-                var mstUserId = 1;// (from d in db.MstUsers where "" + d.Id == identityUserId select d.Id).SingleOrDefault();
                 var date = DateTime.Now;
 
                 Data.mstStaff newItem = new Data.mstStaff();
@@ -112,7 +111,7 @@ namespace TaskManagementSystem.Controllers
 
                     updateItem.StaffName = item.StaffName;
                     updateItem.ContactNumber = item.ContactNumber;
-                    updateItem.IsLocked = item.IsLocked;
+                    updateItem.IsLocked = isLocked;
 
                     //updateItem.UpdateUserId = 123;
                     //updateItem.UpdateDateTime = date;

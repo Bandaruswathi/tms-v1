@@ -240,41 +240,41 @@
         }
 
             // =====================
-            // Staff Add Button
+            // Staff Add/Update Button
             // =====================
             function cmdAddStaff() {
                 var staffObject = new Object();
                 staffObject.StaffName = document.getElementById("staffName").value;
                 staffObject.ContactNumber = document.getElementById("contactNumber").value;
+                
                 var data = JSON.stringify(staffObject);
 
                 var staffId = document.getElementById("staffId").value;
-
-                if (staffId > 0) {
-                    //var itemdata = validateFields();
-                    //$('.dis').prop('disabled', true);
-                    //$.ajax({
-                    //    url: '/api/staff/update/' + id,
-                    //    type: 'PUT',
-                    //    dataType: 'json',
-                    //    data: itemdata,
-                    //    contentType: "application/json;charset=utf-8",
-                    //    cache: false,
-                    //    statusCode: {
-                    //        200: function () {
-                    //           
-                    //            //message("Edit success");
-                    //        },
-                    //        404: function () {
-                    //            message("Edit failed");
-                    //        },
-                    //        400: function () {
-                    //            message("Edit failed");
-                    //        }
-                    //    }
-                    //});
-                    toastr.success("update");
-                } else {
+                if (staffId > 0) { //Update
+                    var itemdata = data;
+                    $('.dis').prop('disabled', true);
+                    $.ajax({
+                        url: '/api/staff/update/' + staffId,
+                        type: 'PUT',
+                        dataType: 'json',
+                        data: itemdata,
+                        contentType: "application/json;charset=utf-8",
+                        cache: false,
+                        statusCode: {
+                            200: function () {
+                                toastr.success("Update Sucess");
+                                refresh();
+                            },
+                            404: function () {
+                                toastr.error("Edit Failed");
+                            },
+                            400: function () {
+                                toastr.error("Edit Failed");
+                            }
+                        }
+                    });
+                   
+                } else { //Add
                     $.ajax({
                         url: '/api/staff/add/',
                         type: 'POST',
@@ -283,7 +283,7 @@
                         cache: false,
                         statusCode: {
                             200: function () {
-                                toastr.success("yes of course not");
+                                toastr.success("Saved");
                                 refresh();
 
                             },
