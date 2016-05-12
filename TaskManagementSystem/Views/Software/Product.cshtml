@@ -2,243 +2,330 @@
 @{
     ViewBag.Title = "Product";
 }
+
+<head>
+    @Styles.Render("~/Content/styleD.css")
+</head>
 @Html.Partial("NavBar")
-@Html.Partial("Scripts")
-@*<div class="container">
-        <div class="content-wrapper">
-            <!-- Content Header (Page header) -->
-            <section class="content-header">
-                <h1 class="fa fa-table">
-                    Product List
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="../Software/Dashboard"><i class="fa fa-table"></i> Home</a></li>
-                    <li class="active">Product</li>
-                </ol>
-            </section>
-            <section class="content">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <!--table container-->
-                        <div class="box">
-                            <div class="row">
-                                <div class="box-header">
-                                    <div class="col-md-6">
-                                        <!--search box-->
-                                        <div class="box-tools">
-                                            <div class="input-group" style="width: 150px;">
-                                                <input type="text" class="form
-                                                   -control input-sm" id="InputFilter" placeholder="Search">
-                                                <div class="input-group-btn">
-                                                    <button class="btn btn-sm btn-default"><i class="fa fa-search"></i></button>
-                                                </div>
+
+<div class="container">
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1 class="fa fa-table">
+                Product List
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="../Software/Dashboard"><i class="fa fa-table"></i> Home</a></li>
+                <li class="active">Product</li>
+            </ol>
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!--table container-->
+                    <div class="box">
+                        <div class="row">
+                            <div class="box-header">
+                                <div class="col-md-6">
+                                    <!--search box-->
+                                    <div class="box-tools">
+                                        <div class="input-group" style="width: 150px;">
+                                            <input type="text" class="form
+                                               -control input-sm" id="InputFilter" placeholder="Search">
+                                            <div class="input-group-btn">
+                                                <button class="btn btn-sm btn-default"><i class="fa fa-search"></i></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="btn-group-horizontal btn-sm pull-right">
-                                        <a href="~/Software/AddItem" class="btn btn-info"><i class="fa fa-plus"></i> Add</a>
-                                        <a href="~/Software/Dashboard" class="btn btn-danger "><i class="fa fa-close"></i> Close</a>
-                                    </div>
+                                </div>
+                                <div class="btn-group-horizontal btn-sm pull-right">
+                                    <button class="btn btn-info" id="" onclick="cmdShowAddModal_OnClick()"><i class="fa fa-plus"></i> Add</button>
+                                    <a href="~/Software/Dashboard" class="btn btn-danger "><i class="fa fa-close"></i> Close</a>
                                 </div>
                             </div>
-                            <!--table-->
-                            <table id="productCollectionGrid" class="grid border-custom"></table>
                         </div>
-                    </div>
-                </div>
-                <!--navigation buttons-->
-                <div class="btn-group pull-right" id="navigationPageGrid">
-                    <button type="button" class="btn btn-default border-custom" id="btnMoveToFirstPageGrid">
-                        <span class="glyphicon glyphicon-fast-backward"></span>
-                    </button>
-                    <button type="button" class="btn btn-default border-custom" id="btnMoveToPreviousPageGrid">
-                        <span class="glyphicon glyphicon-step-backward"></span>
-                    </button>
-                    <button type="button" class="btn btn-default border-custom" disabled style="width: 100px" id="btnCurrentPageGrid"></button>
-                    <button type="button" class="btn btn-default border-custom" id="btnMoveToNextPageGrid">
-                        <span class="glyphicon glyphicon-step-forward"></span>
-                    </button>
-                    <button type="button" class="btn btn-default border-custom" id="btnMoveToLastPageGrid">
-                        <span class="glyphicon glyphicon-fast-forward"></span>
-                    </button>
-                </div>
-            </section>
-        </div><!--Wrapper end-->
-        <!-- Company Delete -->
-        <div class="modal fade" id="deleteProductConfirm" role="dialog">
-            <div class="modal-dialog modal-sm">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Delete Product? <i class="fa fa-trash"></i></h4>
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-danger btn-sm" id="cmdConfirmDeleteProduct" onclick="cmdProductConfirmDeleteButton_OnClick()">Delete</button>
-                        <button id="cmdConfirmDeleteCloseButton" class="btn btn-primary btn-sm" data-dismiss="modal">Cancel</button>
+                        <!--table-->
+                        <table id="productCollectionGrid" class="grid border-custom"></table>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Loading Modal -->
-        <div class="modal fade" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="Loading..." aria-hidden="true" data-backdrop="static" data-keyboard="false">
-            <div class="modal-dialog modal-sm">
-                Modal content
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <h4 style="text-align:center">Loading ...</h4>
-                    </div>
-                    <div class="modal-footer">
-                        <img class="img-thumbnail img-responsive center-block img-custom" src='~/images/progress_bar.gif'>
-                    </div>
+            <!--navigation buttons-->
+            <div class="btn-group pull-right" id="navigationPageGrid">
+                <button type="button" class="btn btn-default border-custom" id="btnMoveToFirstPageGrid">
+                    <span class="glyphicon glyphicon-fast-backward"></span>
+                </button>
+                <button type="button" class="btn btn-default border-custom" id="btnMoveToPreviousPageGrid">
+                    <span class="glyphicon glyphicon-step-backward"></span>
+                </button>
+                <button type="button" class="btn btn-default border-custom" disabled style="width: 100px" id="btnCurrentPageGrid"></button>
+                <button type="button" class="btn btn-default border-custom" id="btnMoveToNextPageGrid">
+                    <span class="glyphicon glyphicon-step-forward"></span>
+                </button>
+                <button type="button" class="btn btn-default border-custom" id="btnMoveToLastPageGrid">
+                    <span class="glyphicon glyphicon-fast-forward"></span>
+                </button>
+            </div>
+        </section>
+    </div><!--Wrapper end-->
+    <!-- Company Delete -->
+    <div class="modal fade" id="deleteProductConfirm" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Delete Product? <i class="fa fa-trash"></i></h4>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger btn-sm" id="cmdConfirmDeleteProduct" onclick="cmdProductConfirmDeleteButton_OnClick()">Delete</button>
+                    <button id="cmdConfirmDeleteCloseButton" class="btn btn-primary btn-sm" data-dismiss="modal">Cancel</button>
                 </div>
             </div>
         </div>
-        <script type="text/javascript">
+    </div>
+    <!-- Loading Modal -->
+    <div class="modal fade" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="Loading..." aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 style="text-align:center; color:#000000;">Loading...</h4>
+                </div>
+                <div class="modal-footer">
+                    <img class="img-thumbnail img-responsive center-block img-custom" src='~/images/progress_bar.gif'>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Edit/Update Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="addProduct" role="dialog">
+        <div class="modal-dialog modal-lg">
 
-            //================
-            // Global variables
-            // ================
-            var productCollections;
-            var productGrid;
-            var editProduct;
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Product Detail</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" id="add-form">
+                        <div class="form-group">
+                            <label for="itemCode" class="col-sm-3 control-label">Product Code</label>
+                            <div class="col-sm-3">
+                                <input type="hidden" class="" id="productId">
+                                <input type="text" class="requiredField form-control" id="productCode" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="barCode" class="col-sm-3 control-label">Product Description</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control requiredField" id="productDescription">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="btnIdAddProduct" onclick="cmdAddProduct()">Add</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
 
-            var btnFirstPageGrid;
-            var btnPreviousPageGrid;
-            var btnNextPageGrid;
-            var btnLastPageGrid;
-            var btnCurrentPageGrid;
-            var productList;
-
-            // =============================
-            // Get ProductMasterList Data
-            // =============================
-
-            function getProductMasterList() {
-
-                productList = new wijmo.collections.ObservableArray();
-                $("#loadingModal").modal("show");
-                $.ajax({
-                    url: '/api/product/list',
-                    cache: false,
-                    type: 'GET',
-                    contentType: 'application/json; charset=utf-8',
-                    data: {},
-                    success: function (results) {
-
-                        var lastProduct = 0;
-                        $("#loadingModal").modal("hide");
-
-                        if (results.length > 0) {
-                            for (i = 0; i < results.length; i++) {
-
-                                productList.push({
-                                    EditId: "<button class='btn btn-primary btn-xs btn-block' id='productEditButton' onClick='cmdProductEditButton_OnClick()'><i class='fa fa-pencil'></i> Edit</button>",
-                                    DeleteId: "<button class='btn btn-danger btn-xs btn-block' id='productDeleteButton' onclick='cmdProductDeleteButton_OnClick()'><i class='fa fa-trash'></i> Delete</button>",
-                                    Id: results[i]["Id"],
-                                    ProductCode: results[i]["ProductCode"],
-                                    ProductDescription: results[i]["ProductDescription"],
-                                    IsLocked: results[i]["IsLocked"]
-
-                                });
-                            }
-                            //localStorage.setStaff("lastId", results[results.length - 1]["ItemCode"]);
-                            productCollections = new wijmo.collections.CollectionView(productList);
-                            productCollections.canFilter = true;
-                            productCollections.pageSize = 15;
-                            btnCurrentPageGrid.innerHTML = (productCollections.pageIndex + 1) + ' / ' + productCollections.pageCount;
-
-                            //Flex Grid
-                            productGrid = new wijmo.grid.FlexGrid('#productCollectionGrid');
-                            productGrid.initialize({
-                                columns: [
+        </div>
+    </div>
 
 
-                                {
-                                    "header": "Edit",
-                                    "binding": "EditId",
-                                    "width": 60,
-                                    "align": "center",
-                                    "isContentHtml": true
-                                },
-                                {
-                                    "header": "Delete",
-                                    "binding": "DeleteId",
-                                    "width": 70,
-                                    "align": "center",
-                                    "isContentHtml": true
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/software-js")
+    <script type="text/javascript">
 
-                                },
-                                {
-                                    "header": "Product Code",
-                                    "binding": "ProductCode",
-                                    "align": "center",
-                                    "allowSorting": true,
-                                    "width": "4*"
-                                },
-                                {
-                                    "header": "Product Description",
-                                    "binding": "ProductDescription",
-                                    "align": "center",
-                                    "allowSorting": true,
-                                    "width": "2.5*"
-                                },
-                                {
-                                    "header": "L",
-                                    "binding": "IsLocked",
-                                    "align": "center",
-                                    "allowSorting": true,
-                                    "width": "1.5*"
-                                }],
-                                autoGenerateColumns: false,
-                                itemsSource: productCollections,
-                                isReadOnly: true,
-                                autoSizeMode: wijmo.grid.AutoSizeMode.Both,
-                                allowDragging: wijmo.grid.AllowDragging.None,
-                                selectionMode: wijmo.grid.SelectionMode.Row
+        //================
+        // Global variables
+        // ================
+        var productGrid;
+        var editProduct;
+
+        var btnFirstPageGrid;
+        var btnPreviousPageGrid;
+        var btnNextPageGrid;
+        var btnLastPageGrid;
+        var btnCurrentPageGrid;
+        var productList;
+
+        // =============================
+        // Get ProductMasterList Data
+        // =============================
+
+        function getProductMasterList() {
+           var productList = new wijmo.collections.ObservableArray();
+            $("#loadingModal").modal("show");
+            $.ajax({
+                url: '/api/product/list',
+                cache: false,
+                type: 'GET',
+                contentType: 'application/json; charset=utf-8',
+                data: {},
+                success: function (results) {
+                    var lastProduct = 0;
+                    $("#loadingModal").modal("hide");
+                    if (results.length > 0) {
+                        for (i = 0; i < results.length; i++) {
+                            productList.push({
+                                EditId: "<button class='btn btn-primary btn-xs btn-block' id='productEditButton' onClick='cmdProductEditButton_OnClick()'><i class='fa fa-pencil'></i> Edit</button>",
+                                DeleteId: "<button class='btn btn-danger btn-xs btn-block' id='productDeleteButton' onclick='cmdProductDeleteButton_OnClick()'><i class='fa fa-trash'></i> Delete</button>",
+                                Id: results[i]["Id"],
+                                ProductCode: results[i]["ProductCode"],
+                                ProductDescription: results[i]["ProductDescription"],
+                                IsLocked: results[i]["IsLocked"]
+
                             });
-
-                            productGrid.trackChanges = true;
-
-                            updateNavigateButtonsCollection();
-
-                            btnFirstPageGrid.addEventListener('click', function () {
-                                productCollections.moveToFirstPage();
-                                updateNavigateButtonsCollection();
-                            });
-                            btnPreviousPageGrid.addEventListener('click', function () {
-                                productCollections.moveToPreviousPage();
-                                updateNavigateButtonsCollection();
-                            });
-                            btnNextPageGrid.addEventListener('click', function () {
-                                productCollections.moveToNextPage();
-                                updateNavigateButtonsCollection();
-                            });
-                            btnLastPageGrid.addEventListener('click', function () {
-                                productCollections.moveToLastPage();
-                                updateNavigateButtonsCollection();
-                            });
-                        } else {
-
                         }
                     }
-                });
+                }
+            });
+
+            return productList;
+        }
+
+
+
+        // ===================
+        // Show Add Modal Button
+        // ===================
+        function cmdShowAddModal_OnClick() {
+            $('#addProduct').modal({
+                show: true,
+                backdrop: 'static'
+            });
+            document.getElementById("productCode").value = "";
+            document.getElementById("productDescription").value = "";
+            document.getElementById("productId").value = 0;
+            document.getElementById("btnIdAddProduct").innerHTML = "Add"
+
+        }
+
+        // ===================
+        // Edit Modal Button
+        // ===================
+        function cmdProductEditButton_OnClick() {
+            $('#addProduct').modal({
+                show: true,
+                backdrop: 'static'
+            });
+
+            document.getElementById("productCode").value = productList.currentItem.ProductCode;
+            document.getElementById("productDescription").value = productList.currentItem.ProductDescription;
+            document.getElementById("productId").value = productList.currentItem.Id;
+            document.getElementById("btnIdAddProduct").innerHTML = "Update"
+        }
+
+        // ===================
+        // Refesh Grid only
+        // ===================
+        function refresh() {
+            productList = new wijmo.collections.CollectionView(getProductMasterList());
+            productList.canFilter = true;
+            productList.pageSize = 15;
+
+            productList.collectionChanged.addHandler(function (sender, args) {
+                updateNavigateButtonsCollection();
+            });
+
+            productGrid.itemsSource = productList;
+            productGrid.trackChanges = true;
+
+        }
+
+        // =========================
+        // Product Entry Validation
+        // =========================
+        function productEntryValidation() {
+            var isValid = true;
+            $('.requiredField').each(function () {
+                if ($.trim($(this).val()) == '') {
+                    isValid = false;
+                    $(this).css({
+                        "border": "1px solid red"
+                    });
+                } else {
+                    $(this).css({
+                        "border": "",
+                    });
+                }
+            });
+
+            return isValid;
+        }
+
+            // =====================
+            // Product Add/Update Button
+            // =====================
+                function cmdAddProduct() {
+                var productObject = new Object();
+                productObject.ProductCode = document.getElementById("productCode").value;
+                productObject.ProductDescription = document.getElementById("productDescription").value;
+
+                var data = JSON.stringify(productObject);
+
+                var productId = document.getElementById("productId").value;
+                if (productEntryValidation() == false) {
+                    toastr.error("Fill out form");
+
+                } else {
+                    if (productId > 0) { //Update
+                        var itemdata = data;
+                        $('.dis').prop('disabled', true);
+                        $.ajax({
+                            url: '/api/product/update/' + productId,
+                            type: 'PUT',
+                            dataType: 'json',
+                            data: itemdata,
+                            contentType: "application/json;charset=utf-8",
+                            cache: false,
+                            statusCode: {
+                                200: function () {
+                                    toastr.success("Update Sucess");
+                                    $('#addProduct').modal('hide');
+                                    //$('#addStaff').remove();
+                                    refresh();
+                                },
+                                404: function () {
+                                    toastr.error("Edit Failed");
+                                },
+                                400: function () {
+                                    toastr.error("Edit Failed");
+                                }
+                            }
+                        });
+
+                    } else { //Add
+                        $.ajax({
+                            url: '/api/product/add/',
+                            type: 'POST',
+                            data: data,
+                            contentType: "application/json;charset=utf-8",
+                            cache: false,
+                            statusCode: {
+                                200: function () {
+                                    $('#addProduct').modal('hide');
+                                    toastr.success("Saved");
+                                    refresh();
+
+                                },
+                                400: function () {
+                                    alert("Error");
+                                },
+                            }
+                        });
+                    }
+                }
             }
 
-            // ===================
-            // Company Edit Button
-            // ===================
-            function cmdProductEditButton_OnClick() {
-                var currentProduct = productCollections.currentItem.Id
-
-                localStorage.ProductId = currentProduct;
-                window.location = isHost + "/Software/EditProduct";
-            }
             // =====================
-            // Staff delete Button
+            // Product delete Button
             // =====================
-            function cmdProductDeleteButton_OnClick() {
-                var id = productCollections.currentItem.Id;
+                function cmdProductDeleteButton_OnClick() {
+                var id = productList.currentItem.Id;
 
                 console.log(typeof id + id);
 
@@ -250,12 +337,12 @@
                 $("#cmdConfirmDeleteCloseButton").prop("disabled", false);
             }
             // Company Confirm Delete Button
-            function cmdProductConfirmDeleteButton_OnClick() {
+                function cmdProductConfirmDeleteButton_OnClick() {
                 $("#cmdConfirmDeleteProduct").prop("disabled", true);
                 $("#cmdConfirmDeleteCloseButton").prop("disabled", true);
 
                 //====================
-                var id = productCollections.currentItem.Id;
+                var id = productList.currentItem.Id;
 
                 $.ajax({
                     url: '/api/product/delete/' + id,
@@ -266,10 +353,9 @@
                         200: function () {
                             $("#cmdConfirmDeleteProduct").prop("disabled", true);
                             $("#cmdConfirmDeleteCloseButton").prop("disabled", true);
+                            $('#deleteProductConfirm').modal('hide');
                             toastr.success("Successfully Deleted");
-                            window.setTimeout(function () {
-                                location.reload()
-                            }, 1000);
+                            refresh();
                         },
                         404: function () {
                             toastr.error("Request Not Found");
@@ -287,10 +373,91 @@
                 });
             }
 
+
+
             //============
             // On Page Load
             // ============
             $(document).ready(function () {
+                //localStorage.setProduct("lastId", results[results.length - 1]["ItemCode"]);
+                productList = new wijmo.collections.CollectionView(getProductMasterList());
+                productList.canFilter = true;
+                productList.pageSize = 15;
+
+                //Filter
+                var filterText = '';
+                $('#InputFilter').keydown(function () {
+                    filterText = this.value.toLowerCase();
+                    productList.refresh();
+                });
+                productList.filter = function (item) {
+                    return !filterText
+                    || (item.ProductCode.toLowerCase().indexOf(filterText) > -1)
+                    || (item.ProductDescription.toLowerCase().indexOf(filterText) > -1)
+                }
+                productList.collectionChanged.addHandler(function (sender, args) {
+                    updateNavigateButtonsCollection();
+
+                });
+                productList.currentChanged.addHandler(function (sender, args) {
+                    updateNavigateButtonsCollection();
+                });
+
+                productList.collectionChanged.addHandler(function (sender, args) {
+                    updateNavigateButtonsCollection();
+                });
+
+                //Flex Grid
+                productGrid = new wijmo.grid.FlexGrid('#productCollectionGrid');
+                productGrid.initialize({
+                    columns: [
+
+
+                    {
+                        "header": "Edit",
+                        "binding": "EditId",
+                        "width": 70,
+                        "align": "center",
+                        "isContentHtml": true
+                    },
+                    {
+                        "header": "Delete",
+                        "binding": "DeleteId",
+                        "width": 90,
+                        "align": "center",
+                        "isContentHtml": true
+
+                    },
+                    {
+                        "header": "Product Code",
+                        "binding": "ProductCode",
+                        "align": "center",
+                        "allowSorting": true,
+                        "width": "2.5*"
+                    },
+                    {
+                        "header": "Product Description",
+                        "binding": "ProductDescription",
+                        "align": "center",
+                        "allowSorting": true,
+                        "width": "5*"
+                    },
+                    {
+                        "header": "L",
+                        "binding": "IsLocked",
+                        "align": "center",
+                        "allowSorting": true,
+                        "width": "1.5*"
+                    }],
+                    autoGenerateColumns: false,
+                    itemsSource: productList,
+                    isReadOnly: true,
+                    autoSizeMode: wijmo.grid.AutoSizeMode.Both,
+                    allowDragging: wijmo.grid.AllowDragging.None,
+                    selectionMode: wijmo.grid.SelectionMode.Row
+                });
+
+                productGrid.trackChanges = true;
 
                 // Navigation button
                 btnFirstPageGrid = document.getElementById('btnMoveToFirstPageGrid');
@@ -299,8 +466,24 @@
                 btnLastPageGrid = document.getElementById('btnMoveToLastPageGrid');
                 btnCurrentPageGrid = document.getElementById('btnCurrentPageGrid');
 
-                //Collection View
-                getProductMasterList();
+                updateNavigateButtonsCollection();
+
+                btnFirstPageGrid.addEventListener('click', function () {
+                    productList.moveToFirstPage();
+                    updateNavigateButtonsCollection();
+                });
+                btnPreviousPageGrid.addEventListener('click', function () {
+                    productList.moveToPreviousPage();
+                    updateNavigateButtonsCollection();
+                });
+                btnNextPageGrid.addEventListener('click', function () {
+                    productList.moveToNextPage();
+                    updateNavigateButtonsCollection();
+                });
+                btnLastPageGrid.addEventListener('click', function () {
+                    productList.moveToLastPage();
+                    updateNavigateButtonsCollection();
+                });
 
             });
 
@@ -308,17 +491,17 @@
             // Navigation Buttons
             // ==================
             function updateNavigateButtonsCollection() {
-                if (productCollections.pageSize <= 0) {
+                if (productList.pageSize <= 0) {
                     document.getElementById('navigationPageGrid').style.display = 'none';
                     return;
                 }
                 document.getElementById('navigationPageGrid').style.display = 'block';
-                if (productCollections.pageIndex === 0) {
+                if (productList.pageIndex === 0) {
                     btnFirstPageGrid.setAttribute('disabled', 'disabled');
                     btnPreviousPageGrid.setAttribute('disabled', 'disabled');
                     btnNextPageGrid.removeAttribute('disabled');
                     btnLastPageGrid.removeAttribute('disabled');
-                } else if (productCollections.pageIndex === (productCollections.pageCount - 1)) {
+                } else if (productList.pageIndex === (productList.pageCount - 1)) {
                     btnFirstPageGrid.removeAttribute('disabled');
                     btnPreviousPageGrid.removeAttribute('disabled');
                     btnLastPageGrid.setAttribute('disabled', 'disabled');
@@ -329,9 +512,9 @@
                     btnNextPageGrid.removeAttribute('disabled');
                     btnLastPageGrid.removeAttribute('disabled');
                 }
-                btnCurrentPageGrid.innerHTML = (productCollections.pageIndex + 1) + ' / ' + productCollections.pageCount;
+                btnCurrentPageGrid.innerHTML = (productList.pageIndex + 1) + ' / ' + productList.pageCount;
 
             }
 
-        </script>
-    </div>*@
+    </script>
+</div>
